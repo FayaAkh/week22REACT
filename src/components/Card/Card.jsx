@@ -1,6 +1,4 @@
 import "./Card.css";
-import { Modal } from "react-bootstrap";
-import { Button } from "bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import More from "../More";
 
