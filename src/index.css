@@ -1,0 +1,55 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+
+
+
+.card {
+  max-width: 80%;
+  background-color: #b7f6f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 10px;
+  text-align: center;
+}
+img {
+  max-width: 50%;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.btn {
+  margin-top: 10px;
+}
+.star-rating {
+  display: inline-block;
+}
+
+.star-rating .star {
+  cursor: pointer;
+  color: #ccc;
+  font-size: 24px;
+}
+
+.star-rating .star.selected {
+  color: #f5a623;
+}

@@ -1,0 +1,35 @@
+
+
+.card {
+  max-width: 30%;
+  background-color: #b7f6f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 10px;
+  text-align: center;
+}
+img {
+  max-width: 50%;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.btn {
+  margin-top: 10px;
+}
+.star-rating {
+  display: inline-block;
+}
+
+.star-rating .star {
+  cursor: pointer;
+  color: #ccc;
+  font-size: 24px;
+}
+
+.star-rating .star.selected {
+  color: #f5a623;
+}
